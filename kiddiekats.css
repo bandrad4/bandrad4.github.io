@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f8fb;
+    background-image: url("pawtrail.png");
+    background-repeat: repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    color: #020d0e;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: #4a90e2;
+    color: #f4fdfe;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+header a{
+    text-decoration: none;
+}
+header a:link{
+    color:#FFFFFF;
+}
+header a:visited{
+    color:#FFFFFF;
+}
+nav{
+    background-color: #e88a25;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px; 
+    border-radius: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;  
+}
+nav a:hover{
+    background-color: #ffd966;
+    color: black;
+}
+
+main{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#homehero{
+    height: 300px;
+    background-image: url(pawprints.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+h2{
+    color: #5e5af4;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000033;
+}
+h3{
+    color: #5e5af4;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000033;
+}
+footer{
+    background-color: #4a90e2;
+    color: #f4fdfe;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
