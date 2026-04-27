@@ -91,21 +91,24 @@ main{
     border-radius: 10px;
     text-align: center;
 }
+ul {
+    text-align: left;
+    display: inline-block;
+}
 h1 {
     font-size: 2.8rem;
     letter-spacing: 0.15em;
     margin: 0;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 }
-h2{
+h2, h3 {
     color: #5e5af4;
-    font-size: 2.5em;
     text-shadow: 1px 1px 1px #000033;
-}
-h3{
-    color: #5e5af4;
     text-align: center;
-    text-shadow: 1px 1px 1px #000033;
+}
+
+h2 {
+    font-size: 2.5em;
 }
 footer{
     background-color: #4a90e2;
@@ -144,6 +147,49 @@ footer{
 }
 #featured h3 {
     margin-top: 0;
+}
+.info-box {
+    background-color: #fff3c4;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.info-box img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.info-box h3 {
+    margin-top: 0;
+}
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+input[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+input[type="submit"]:hover {
+    background-color: #357ac9;
 }
 @media (max-width: 600px) {
 
